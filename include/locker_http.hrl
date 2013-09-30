@@ -1,0 +1,4 @@
+-define(i2b(I), list_to_binary(integer_to_list(I))).
+-define(b2i(B), list_to_integer(binary_to_list(B))).
+-define(t2b(T), list_to_binary(io_lib:format("~p",[T]))).
+-define(b2a(B), list_to_atom(binary_to_list(B))).

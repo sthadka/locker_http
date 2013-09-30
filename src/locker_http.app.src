@@ -1,0 +1,12 @@
+{application, locker_http,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { locker_http_app, []}},
+  {env, []}
+ ]}.
